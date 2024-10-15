@@ -137,6 +137,7 @@ def evaluate(math):
 print("Введите математическое выражение:")
 
 math = str(input())
+math = math.replace('=', '')
 operation = ['+', '-', '*', '/']
 r = []
 
