@@ -11,7 +11,7 @@ def sort(mass):
     return mass
 
 
-mass = np.random.randint(1, 100000, size=1000)
+mass = np.random.randint(1, 100000, size=100000)
 start_time = time.time()
 sort(mass)
 end_time = time.time()
