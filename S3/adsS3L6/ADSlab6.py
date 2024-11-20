@@ -13,7 +13,7 @@ def sort(mass):
 
 mass = np.random.randint(1, 100000, size=100000)
 start_time = time.time()
-sort(mass)
+mass = sort(mass)
 end_time = time.time()
 print(end_time - start_time)
 print(mass)
